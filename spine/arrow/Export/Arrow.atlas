@@ -1,0 +1,12 @@
+
+Arrow.png
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Arrow
+  rotate: false
+  xy: 2, 2
+  size: 44, 204
+  orig: 44, 204
+  offset: 0, 0
+  index: -1

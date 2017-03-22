@@ -1,0 +1,12 @@
+
+Shot.png
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Shot
+  rotate: false
+  xy: 2, 2
+  size: 56, 35
+  orig: 56, 35
+  offset: 0, 0
+  index: -1

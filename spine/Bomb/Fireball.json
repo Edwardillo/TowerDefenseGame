@@ -1,0 +1,39 @@
+{
+"bones": [
+	{ "name": "root" },
+	{ "name": "Main", "parent": "root", "length": 103.22, "x": -0.18, "y": 0.16, "scaleX": 0.01, "scaleY": 0.01 }
+],
+"slots": [
+	{ "name": "TestObject", "bone": "Main", "attachment": "2", "additive": true },
+	{ "name": "Main_Hitbox", "bone": "root", "attachment": "Main_Hitbox" }
+],
+"skins": {
+	"default": {
+		"Main_Hitbox": {
+			"Main_Hitbox": {
+				"type": "boundingbox",
+				"vertices": [ -3.441925, -30.29747, 104.19406, -31.813446, 101.16206, 30.34253, -3.441925, 25.79454 ]
+			}
+		},
+		"TestObject": {
+			"0": { "x": 6575.99, "y": 377.8, "scaleX": 203.445, "scaleY": 203.445, "width": 73, "height": 52 },
+			"1": { "x": 5161.59, "y": 326.4, "scaleX": 203.445, "scaleY": 203.445, "width": 72, "height": 52 },
+			"2": { "x": 4763.79, "y": 308.4, "scaleX": 203.445, "scaleY": 203.445, "width": 78, "height": 52 }
+		}
+	}
+},
+"animations": {
+	"Still": {
+		"slots": {
+			"TestObject": {
+				"attachment": [
+					{ "time": 0, "name": "0" },
+					{ "time": 0.0666, "name": "1" },
+					{ "time": 0.1333, "name": "2" },
+					{ "time": 0.2, "name": "1" }
+				]
+			}
+		}
+	}
+}
+}

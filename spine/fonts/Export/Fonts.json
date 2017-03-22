@@ -1,0 +1,43 @@
+{
+"bones": [
+	{ "name": "root", "scaleX": 0.963, "scaleY": 0.963 }
+],
+"slots": [
+	{ "name": "GameOver", "bone": "root", "attachment": "GameOverA" }
+],
+"skins": {
+	"default": {
+		"GameOver": {
+			"GameOverA": { "x": 2.07, "y": 28, "width": 470, "height": 51 }
+		}
+	}
+},
+"animations": {
+	"GameOver": {
+		"bones": {
+			"root": {
+				"rotate": [
+					{ "time": 0, "angle": 20.17 },
+					{ "time": 0.6, "angle": 19.96 },
+					{ "time": 1, "angle": -20.4 },
+					{ "time": 1.1333, "angle": 19.96 },
+					{ "time": 1.4666, "angle": -20.4 },
+					{ "time": 1.7666, "angle": 0.05 }
+				],
+				"translate": [
+					{ "time": 0, "x": 1.99, "y": 505 },
+					{ "time": 0.6, "x": -6, "y": 72, "curve": "stepped" },
+					{ "time": 1.1333, "x": -6, "y": 72 },
+					{ "time": 1.7666, "x": 0, "y": 9.99 }
+				],
+				"scale": [
+					{ "time": 1.7666, "x": 0.999, "y": 0.999 },
+					{ "time": 2.2666, "x": 1.703, "y": 1.703 },
+					{ "time": 2.6, "x": 0.467, "y": 0.467 },
+					{ "time": 3.1, "x": 2.865, "y": 2.865 }
+				]
+			}
+		}
+	}
+}
+}

@@ -1,0 +1,40 @@
+
+Background.png
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+BG_0000_PaintLayer-3----copy
+  rotate: false
+  xy: 2, 412
+  size: 800, 600
+  orig: 800, 600
+  offset: 0, 0
+  index: -1
+BG_0000s_0009_PaintLayer-9---
+  rotate: false
+  xy: 1451, 783
+  size: 401, 229
+  orig: 401, 229
+  offset: 0, 0
+  index: -1
+BG_0000s_0010_PaintLayer-7---
+  rotate: false
+  xy: 804, 473
+  size: 569, 278
+  orig: 569, 278
+  offset: 0, 0
+  index: -1
+BG_0000s_0011_PaintLayer-6---
+  rotate: false
+  xy: 804, 753
+  size: 645, 259
+  orig: 645, 259
+  offset: 0, 0
+  index: -1
+BG_0000s_0012_PaintLayer-10--
+  rotate: false
+  xy: 2, 2
+  size: 800, 408
+  orig: 800, 408
+  offset: 0, 0
+  index: -1

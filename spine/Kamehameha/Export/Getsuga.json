@@ -1,0 +1,39 @@
+{
+"bones": [
+	{ "name": "root" },
+	{ "name": "Getsuga", "parent": "root", "length": 103.22, "x": -0.18, "y": 0.16 }
+],
+"slots": [
+	{ "name": "Getsuga", "bone": "Getsuga", "attachment": "Getsuga" },
+	{ "name": "Getsuga_Hitbox", "bone": "root", "attachment": "Getsuga_Hitbox" }
+],
+"skins": {
+	"default": {
+		"Getsuga": {
+			"Getsuga": { "x": 89.21, "y": 10.9, "width": 267, "height": 449 }
+		},
+		"Getsuga_Hitbox": {
+			"Getsuga_Hitbox": {
+				"type": "boundingbox",
+				"vertices": [
+					172.62456,
+					-47.38638,
+					216.64056,
+					51.125587,
+					147.47253,
+					142.3016,
+					-5.535431,
+					219.85358,
+					117.08057,
+					36.453598,
+					-32.783417,
+					-200.39441
+				]
+			}
+		}
+	}
+},
+"animations": {
+	"Still": {}
+}
+}

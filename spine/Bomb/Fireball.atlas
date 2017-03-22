@@ -1,0 +1,26 @@
+
+Fireball.png
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+0
+  rotate: false
+  xy: 82, 4
+  size: 73, 50
+  orig: 73, 52
+  offset: 0, 0
+  index: -1
+1
+  rotate: false
+  xy: 157, 2
+  size: 72, 52
+  orig: 72, 52
+  offset: 0, 0
+  index: -1
+2
+  rotate: false
+  xy: 2, 4
+  size: 78, 50
+  orig: 78, 52
+  offset: 0, 0
+  index: -1

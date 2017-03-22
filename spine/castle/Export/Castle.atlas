@@ -1,0 +1,96 @@
+
+Castle.png
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Castle_0000_Door
+  rotate: true
+  xy: 2, 31
+  size: 15, 252
+  orig: 15, 252
+  offset: 0, 0
+  index: -1
+Castle_0001_WaponEntry
+  rotate: false
+  xy: 1649, 33
+  size: 247, 75
+  orig: 247, 75
+  offset: 0, 0
+  index: -1
+Castle_0002_WaponEntry-copy
+  rotate: true
+  xy: 1943, 249
+  size: 247, 75
+  orig: 247, 75
+  offset: 0, 0
+  index: -1
+Castle_0004_Lvl1Top
+  rotate: true
+  xy: 1943, 135
+  size: 112, 65
+  orig: 112, 65
+  offset: 0, 0
+  index: -1
+Castle_0006_Lvl2Top
+  rotate: false
+  xy: 403, 116
+  size: 288, 131
+  orig: 288, 131
+  offset: 0, 0
+  index: -1
+Castle_0008_Lvl3Top
+  rotate: false
+  xy: 729, 405
+  size: 750, 91
+  orig: 750, 91
+  offset: 0, 0
+  index: -1
+Castle_0009_MainTop
+  rotate: false
+  xy: 1481, 405
+  size: 427, 91
+  orig: 427, 91
+  offset: 0, 0
+  index: -1
+Castle_0010_Layer-3
+  rotate: true
+  xy: 1649, 110
+  size: 293, 292
+  orig: 293, 292
+  offset: 0, 0
+  index: -1
+Castle_0011_Lvl2Entrance
+  rotate: true
+  xy: 1284, 45
+  size: 358, 363
+  orig: 358, 363
+  offset: 0, 0
+  index: -1
+Castle_0012_Lvl2Bot-copy
+  rotate: true
+  xy: 2, 48
+  size: 199, 399
+  orig: 199, 399
+  offset: 0, 0
+  index: -1
+Castle_0014_LVL3base
+  rotate: false
+  xy: 729, 130
+  size: 553, 273
+  orig: 553, 273
+  offset: 0, 0
+  index: -1
+Castle_0017_Lvl1Bot-copy
+  rotate: true
+  xy: 403, 2
+  size: 112, 275
+  orig: 112, 275
+  offset: 0, 0
+  index: -1
+Castle_0018_Main
+  rotate: true
+  xy: 2, 249
+  size: 247, 725
+  orig: 247, 725
+  offset: 0, 0
+  index: -1

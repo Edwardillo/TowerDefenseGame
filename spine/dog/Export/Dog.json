@@ -1,0 +1,80 @@
+{
+"bones": [
+	{ "name": "root", "y": -1 }
+],
+"slots": [
+	{ "name": "root3", "bone": "root", "attachment": "dog_0003_PaintLayer-0---" },
+	{ "name": "root2", "bone": "root", "attachment": "dog_0002_PaintLayer-2---" },
+	{ "name": "root", "bone": "root", "attachment": "dog_0001_PaintLayer-3---" },
+	{ "name": "dog_0000_PaintLayer-1---", "bone": "root", "attachment": "dog_0000_PaintLayer-1---" },
+	{ "name": "HitBox", "bone": "root", "attachment": "HitBox" }
+],
+"skins": {
+	"default": {
+		"HitBox": {
+			"HitBox": {
+				"type": "boundingbox",
+				"vertices": [
+					-119.499985,
+					19.83566,
+					-16.499985,
+					1.8356476,
+					37.499985,
+					29.835651,
+					89.499985,
+					100.83568,
+					139.49998,
+					90.835686,
+					213.49995,
+					149.8357,
+					127.49997,
+					213.8357,
+					86.49999,
+					247.83566,
+					72.49998,
+					203.83565,
+					8.500015,
+					174.83566,
+					-68.499985,
+					168.83568,
+					-76.499985,
+					146.8357,
+					-93.499985,
+					69.83565,
+					-128.49998,
+					38.835674
+				]
+			}
+		},
+		"dog_0000_PaintLayer-1---": {
+			"dog_0000_PaintLayer-1---": { "x": -5.99, "y": 106.99, "rotation": -6.29, "width": 500, "height": 363 }
+		},
+		"root": {
+			"dog_0001_PaintLayer-3---": { "x": 1, "y": 108, "rotation": -6.46, "width": 482, "height": 367 }
+		},
+		"root2": {
+			"dog_0002_PaintLayer-2---": { "x": 62.99, "y": 129, "rotation": -5.91, "width": 312, "height": 235 }
+		},
+		"root3": {
+			"dog_0003_PaintLayer-0---": { "x": 43, "y": 122, "rotation": -6.62, "width": 311, "height": 285 }
+		}
+	}
+},
+"animations": {
+	"animation": {
+		"bones": {
+			"root": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			}
+		}
+	}
+}
+}

@@ -1,0 +1,12 @@
+
+Test.png
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+FireBlast
+  rotate: false
+  xy: 2, 2
+  size: 461, 136
+  orig: 461, 136
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,43 @@
+{
+"bones": [
+	{ "name": "root" },
+	{ "name": "Head", "parent": "root", "length": 150, "x": 0.5, "y": 82.99, "rotation": 90 }
+],
+"slots": [
+	{ "name": "Head", "bone": "Head", "attachment": "Head" },
+	{ "name": "Head_HitBox", "bone": "Head", "attachment": "Head_HitBox" }
+],
+"skins": {
+	"default": {
+		"Head": {
+			"Head": { "x": 180.41, "y": -16.29, "rotation": -90, "width": 507, "height": 522 }
+		},
+		"Head_HitBox": {
+			"Head_HitBox": {
+				"type": "boundingbox",
+				"vertices": [ 21.331306, -230.26599, 428.76123, -206.12204, 302.00525, 222.43394, -23.938766, 174.14589, -75.244736, 8.155906 ]
+			}
+		}
+	}
+},
+"events": {
+	"Shoot": {}
+},
+"animations": {
+	"Stand": {
+		"bones": {
+			"Head": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 1.3666, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 },
+					{ "time": 0.6666, "x": 0, "y": 81.39 },
+					{ "time": 1.3666, "x": 0, "y": 0 }
+				]
+			}
+		}
+	}
+}
+}

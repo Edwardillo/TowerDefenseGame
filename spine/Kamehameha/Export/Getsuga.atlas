@@ -1,0 +1,12 @@
+
+Getsuga.png
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Getsuga
+  rotate: false
+  xy: 2, 2
+  size: 267, 449
+  orig: 267, 449
+  offset: 0, 0
+  index: -1

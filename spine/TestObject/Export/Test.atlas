@@ -1,0 +1,12 @@
+
+Test.png
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+TestObject
+  rotate: false
+  xy: 2, 2
+  size: 500, 200
+  orig: 500, 200
+  offset: 0, 0
+  index: -1

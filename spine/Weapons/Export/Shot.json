@@ -1,0 +1,26 @@
+{
+"bones": [
+	{ "name": "root" },
+	{ "name": "Main", "parent": "root", "length": 103.22, "x": -0.18, "y": 0.16, "scaleX": 0.307, "scaleY": 0.388 }
+],
+"slots": [
+	{ "name": "Shot", "bone": "Main", "attachment": "Shot", "additive": true },
+	{ "name": "Main_Hitbox", "bone": "root", "attachment": "Main_Hitbox" }
+],
+"skins": {
+	"default": {
+		"Main_Hitbox": {
+			"Main_Hitbox": {
+				"type": "boundingbox",
+				"vertices": [ 31.277004, -12.572775, 43.202972, -1.3588066, 31.988998, 13.771156, -0.7629051, 0.59918594 ]
+			}
+		},
+		"Shot": {
+			"Shot": { "x": 66.71, "y": 2.24, "scaleX": 3.255, "scaleY": 2.571, "width": 56, "height": 35 }
+		}
+	}
+},
+"animations": {
+	"Still": {}
+}
+}

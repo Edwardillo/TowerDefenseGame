@@ -1,0 +1,12 @@
+C:\Users\Desktop\Desktop\Doddle Defense\Doddle Defense\Doddle Defense\bin\x86\Debug\Doddle Defense.exe
+C:\Users\Desktop\Desktop\Doddle Defense\Doddle Defense\Doddle Defense\bin\x86\Debug\Doddle Defense.pdb
+C:\Users\Desktop\Desktop\Doddle Defense\Doddle Defense\Doddle Defense\obj\x86\Debug\Doddle Defense.csprojResolveAssemblyReference.cache
+C:\Users\Desktop\Desktop\Doddle Defense\Doddle Defense\Doddle Defense\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\Users\Desktop\Desktop\Doddle Defense\Doddle Defense\Doddle Defense\obj\x86\Debug\Doddle Defense.exe
+C:\Users\Desktop\Desktop\Doddle Defense\Doddle Defense\Doddle Defense\obj\x86\Debug\Doddle Defense.pdb
+C:\Users\Desktop\Desktop\Doddle Defense\Doddle Defense\Doddle Defense\bin\x86\Debug\Content\Frieza.xnb
+C:\Users\Desktop\Desktop\Doddle Defense\Doddle Defense\Doddle Defense\bin\x86\Debug\Content\test.xnb
+C:\Users\Desktop\Desktop\Doddle Defense\Doddle Defense\Doddle Defense\bin\x86\Debug\Content\Elife.xnb
+C:\Users\Desktop\Desktop\Doddle Defense\Doddle Defense\Doddle Defense\bin\x86\Debug\Content\HealthBar.xnb
+C:\Users\Desktop\Desktop\Doddle Defense\Doddle Defense\Doddle Defense\bin\x86\Debug\Content\Meteorito.xnb
+C:\Users\Desktop\Desktop\Doddle Defense\Doddle Defense\Doddle Defense\bin\x86\Debug\Content\Box.xnb

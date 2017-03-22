@@ -1,0 +1,26 @@
+
+Weapon.png
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+FlameThrower
+  rotate: false
+  xy: 2, 259
+  size: 463, 150
+  orig: 463, 150
+  offset: 0, 0
+  index: -1
+SMG
+  rotate: false
+  xy: 2, 2
+  size: 373, 139
+  orig: 373, 139
+  offset: 0, 0
+  index: -1
+Sniper
+  rotate: false
+  xy: 2, 143
+  size: 456, 114
+  orig: 456, 114
+  offset: 0, 0
+  index: -1

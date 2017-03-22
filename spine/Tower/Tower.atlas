@@ -1,0 +1,59 @@
+
+Tower.png
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Tower_0000_Top
+  rotate: false
+  xy: 2, 100
+  size: 458, 116
+  orig: 458, 116
+  offset: 0, 0
+  index: -1
+Tower_0004_Compuerta3
+  rotate: false
+  xy: 2, 2
+  size: 192, 47
+  orig: 192, 47
+  offset: 0, 0
+  index: -1
+Tower_0005_Compuerta2
+  rotate: false
+  xy: 562, 933
+  size: 198, 47
+  orig: 198, 47
+  offset: 0, 0
+  index: -1
+Tower_0006_Compuerta1
+  rotate: false
+  xy: 2, 51
+  size: 205, 47
+  orig: 205, 47
+  offset: 0, 0
+  index: -1
+Tower_0007_Puerta
+  rotate: false
+  xy: 526, 597
+  size: 34, 383
+  orig: 34, 383
+  offset: 0, 0
+  index: -1
+Tower_0009_Base
+  rotate: false
+  xy: 2, 218
+  size: 522, 762
+  orig: 522, 762
+  offset: 0, 0
+  index: -1
+
+Tower2.png
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Tower_0008_Layer-1
+  rotate: false
+  xy: 2, 2
+  size: 514, 723
+  orig: 514, 723
+  offset: 0, 0
+  index: -1

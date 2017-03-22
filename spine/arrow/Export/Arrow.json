@@ -1,0 +1,40 @@
+{
+"bones": [
+	{ "name": "root" },
+	{ "name": "Main", "parent": "root", "length": 200.06, "x": 0.55, "y": 0.21 }
+],
+"slots": [
+	{ "name": "Arrow", "bone": "Main", "attachment": "Arrow" },
+	{ "name": "Arrow_BoundingBox", "bone": "Main", "attachment": "Arrow_BoundingBox" }
+],
+"skins": {
+	"default": {
+		"Arrow": {
+			"Arrow": { "x": 103.44, "y": -0.21, "rotation": 89.28, "width": 44, "height": 204 }
+		},
+		"Arrow_BoundingBox": {
+			"Arrow_BoundingBox": {
+				"type": "boundingbox",
+				"vertices": [ 9.685989, -11.356018, 204.74178, 1.001976, 10.019989, 10.0199585 ]
+			}
+		}
+	}
+},
+"animations": {
+	"Still": {
+		"bones": {
+			"root": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			}
+		}
+	}
+}
+}

@@ -1,0 +1,110 @@
+
+Hud.png
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Bow
+  rotate: false
+  xy: 846, 178
+  size: 57, 68
+  orig: 57, 68
+  offset: 0, 0
+  index: -1
+Dog
+  rotate: true
+  xy: 905, 178
+  size: 68, 52
+  orig: 68, 52
+  offset: 0, 0
+  index: -1
+Flame
+  rotate: true
+  xy: 838, 22
+  size: 68, 67
+  orig: 68, 67
+  offset: 0, 0
+  index: -1
+Goku
+  rotate: true
+  xy: 461, 31
+  size: 215, 151
+  orig: 215, 151
+  offset: 0, 0
+  index: -1
+Hud_Heat
+  rotate: false
+  xy: 419, 5
+  size: 75, 17
+  orig: 75, 17
+  offset: 0, 0
+  index: -1
+Hud_Life
+  rotate: false
+  xy: 308, 2
+  size: 109, 20
+  orig: 109, 20
+  offset: 0, 0
+  index: -1
+Hud_Player
+  rotate: false
+  xy: 767, 168
+  size: 77, 78
+  orig: 77, 78
+  offset: 0, 0
+  index: -1
+Hud_Weapon
+  rotate: false
+  xy: 767, 92
+  size: 74, 74
+  orig: 74, 74
+  offset: 0, 0
+  index: -1
+Ichigo
+  rotate: true
+  xy: 308, 24
+  size: 222, 151
+  orig: 222, 151
+  offset: 0, 0
+  index: -1
+Light
+  rotate: true
+  xy: 2, 7
+  size: 239, 151
+  orig: 239, 151
+  offset: 0, 0
+  index: -1
+Link
+  rotate: true
+  xy: 767, 20
+  size: 70, 69
+  orig: 70, 69
+  offset: 0, 0
+  index: -1
+Luffy
+  rotate: true
+  xy: 155, 7
+  size: 239, 151
+  orig: 239, 151
+  offset: 0, 0
+  index: -1
+SMG
+  rotate: true
+  xy: 843, 98
+  size: 68, 67
+  orig: 68, 67
+  offset: 0, 0
+  index: -1
+Sasuke
+  rotate: true
+  xy: 614, 44
+  size: 202, 151
+  orig: 202, 151
+  offset: 0, 0
+  index: -1
+Sniper
+  rotate: true
+  xy: 907, 28
+  size: 68, 67
+  orig: 68, 67
+  offset: 0, 0
+  index: -1

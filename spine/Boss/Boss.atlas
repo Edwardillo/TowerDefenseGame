@@ -1,0 +1,26 @@
+
+Boss.png
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Head
+  rotate: true
+  xy: 2, 2
+  size: 507, 522
+  orig: 507, 522
+  offset: 0, 0
+  index: -1
+LFist
+  rotate: false
+  xy: 526, 397
+  size: 95, 112
+  orig: 95, 112
+  offset: 0, 0
+  index: -1
+Rfist
+  rotate: false
+  xy: 526, 283
+  size: 95, 112
+  orig: 95, 112
+  offset: 0, 0
+  index: -1

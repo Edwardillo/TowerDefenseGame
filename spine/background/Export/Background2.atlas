@@ -1,0 +1,40 @@
+
+Background2.png
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+BG_0000s_0002_Floor
+  rotate: false
+  xy: 804, 72
+  size: 800, 44
+  orig: 800, 44
+  offset: 0, 0
+  index: -1
+BG_0000s_0003_Layer-1
+  rotate: false
+  xy: 2, 2
+  size: 800, 75
+  orig: 800, 75
+  offset: 0, 0
+  index: -1
+BG_0000s_0005_PaintLayer-11--
+  rotate: false
+  xy: 2, 79
+  size: 800, 365
+  orig: 800, 365
+  offset: 0, 0
+  index: -1
+BG_0000s_0007_PaintLayer-4---
+  rotate: false
+  xy: 804, 118
+  size: 800, 326
+  orig: 800, 326
+  offset: 0, 0
+  index: -1
+BG_0000s_0008_PaintLayer-0---
+  rotate: false
+  xy: 1606, 311
+  size: 295, 133
+  orig: 295, 133
+  offset: 0, 0
+  index: -1

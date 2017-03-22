@@ -1,0 +1,101 @@
+{
+"bones": [
+	{ "name": "root" },
+	{ "name": "MainBody", "parent": "root", "length": 716.7, "x": -1.31, "y": 0.2, "rotation": 88.64 },
+	{ "name": "Door", "parent": "MainBody", "length": 349.64, "x": 21.22, "y": -267.13, "rotation": 1.35 },
+	{ "name": "Gun1", "parent": "MainBody", "length": 139.66, "x": 665.06, "y": -167.71, "rotation": 90.45 },
+	{ "name": "Gun2", "parent": "MainBody", "length": 125.79, "x": 576.98, "y": -185.78, "rotation": 90.45 },
+	{ "name": "Gun3", "parent": "MainBody", "length": 114.06, "x": 474.92, "y": -198.85, "rotation": 90.9 }
+],
+"slots": [
+	{ "name": "MainBody", "bone": "MainBody", "attachment": "Tower_0009_Base" },
+	{ "name": "TowerTop", "bone": "MainBody", "attachment": "Tower_0000_Top" },
+	{ "name": "Extra", "bone": "MainBody", "attachment": "Tower_0008_Layer-1" },
+	{ "name": "Door", "bone": "Door", "attachment": "Tower_0007_Puerta" },
+	{ "name": "Gun1", "bone": "Gun1", "attachment": "Tower_0004_Compuerta3" },
+	{ "name": "Gun2", "bone": "Gun2", "attachment": "Tower_0005_Compuerta2" },
+	{ "name": "Gun3", "bone": "Gun3", "attachment": "Tower_0006_Compuerta1" },
+	{ "name": "MainBody_BoundingBox", "bone": "MainBody", "attachment": "MainBody_BoundingBox" }
+],
+"skins": {
+	"default": {
+		"Door": {
+			"Tower_0007_Puerta": { "x": 174.82, "y": -3.19, "rotation": -89.99, "width": 34, "height": 383 }
+		},
+		"Extra": {
+			"Tower_0008_Layer-1": { "x": 361.59, "y": 7.52, "rotation": -88.64, "width": 514, "height": 723 }
+		},
+		"Gun1": {
+			"Tower_0004_Compuerta3": { "x": 75.65, "y": 2.26, "rotation": -179.09, "width": 192, "height": 47 }
+		},
+		"Gun2": {
+			"Tower_0005_Compuerta2": { "x": 77.75, "y": 4.4, "rotation": -179.1, "width": 198, "height": 47 }
+		},
+		"Gun3": {
+			"Tower_0006_Compuerta1": { "x": 73.57, "y": -2.61, "rotation": -179.54, "width": 205, "height": 47 }
+		},
+		"MainBody": {
+			"Tower_0009_Base": { "x": 380.33, "y": 14.3, "rotation": -88.64, "width": 522, "height": 762 }
+		},
+		"MainBody_BoundingBox": {
+			"MainBody_BoundingBox": {
+				"type": "boundingbox",
+				"vertices": [
+					-4.6600065,
+					261.80872,
+					4.7664394,
+					-252.63197,
+					389.1635,
+					-242.21,
+					728.6481,
+					-165.12865,
+					729.7018,
+					-209.7982,
+					789.8679,
+					-234.11212,
+					844.04474,
+					-234.18848,
+					831.9943,
+					219.24338,
+					769.7277,
+					217.77457,
+					717.57495,
+					189.45679,
+					719.72687,
+					155.64813
+				]
+			}
+		},
+		"TowerTop": {
+			"Tower_0000_Top": { "x": 780.72, "y": -8.24, "rotation": -88.64, "width": 458, "height": 116 }
+		}
+	}
+},
+"events": {
+	"Car": { "string": "Car" }
+},
+"animations": {
+	"OpenDoor": {
+		"bones": {
+			"Door": {
+				"rotate": [
+					{ "time": 0, "angle": 0 },
+					{ "time": 0.3333, "angle": -89.72, "curve": "stepped" },
+					{ "time": 1.1666, "angle": -89.72 },
+					{ "time": 2, "angle": 0.24 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			}
+		},
+		"events": [
+			{ "time": 0.3333, "name": "Car" }
+		]
+	},
+	"Still": {}
+}
+}

@@ -1,0 +1,90 @@
+{
+"bones": [
+	{ "name": "root" }
+],
+"slots": [
+	{ "name": "Fondo", "bone": "root", "attachment": "Fondo" },
+	{ "name": "TextBox1", "bone": "root", "attachment": "TextBox1" },
+	{ "name": "TextBox2", "bone": "root", "attachment": "TextBox2" },
+	{ "name": "TextBox3", "bone": "root", "attachment": "TextBox3" },
+	{ "name": "TextBox5", "bone": "root", "attachment": "TextBox5" },
+	{ "name": "TextBox4", "bone": "root", "attachment": "Textbox4" },
+	{ "name": "TextBox6", "bone": "root", "attachment": "TextBox6" },
+	{ "name": "Option1", "bone": "root", "attachment": "Option1" },
+	{ "name": "Option2", "bone": "root", "color": "ffffff00", "attachment": "Option2" },
+	{ "name": "Option3", "bone": "root", "color": "ffffff00", "attachment": "Option3" },
+	{ "name": "Option4", "bone": "root", "color": "ffffff00", "attachment": "Option4" },
+	{ "name": "Option5", "bone": "root", "color": "ffffff00", "attachment": "Option5" },
+	{ "name": "Option6", "bone": "root", "color": "ffffff00", "attachment": "Option6" },
+	{ "name": "Car", "bone": "root", "attachment": "Car" },
+	{ "name": "Link", "bone": "root", "attachment": "Link" },
+	{ "name": "Castillo", "bone": "root", "attachment": "Castillo" },
+	{ "name": "Arma1", "bone": "root", "attachment": "Arma1" },
+	{ "name": "Arma2", "bone": "root", "attachment": "Arma2" },
+	{ "name": "Arma3", "bone": "root", "attachment": "Arma3" }
+],
+"skins": {
+	"default": {
+		"Arma1": {
+			"Arma1": { "x": -263.03, "y": 824.98, "width": 154, "height": 154 }
+		},
+		"Arma2": {
+			"Arma2": { "x": -265.27, "y": 648.02, "width": 154, "height": 154 }
+		},
+		"Arma3": {
+			"Arma3": { "x": -264.15, "y": 466.58, "width": 154, "height": 154 }
+		},
+		"Car": {
+			"Car": { "x": -267.39, "y": 300.82, "width": 154, "height": 132 }
+		},
+		"Castillo": {
+			"Castillo": { "x": -266.39, "y": 988.74, "width": 154, "height": 138 }
+		},
+		"Fondo": {
+			"Fondo": { "x": -10, "y": 558, "width": 760, "height": 1112 }
+		},
+		"Link": {
+			"Link": { "x": -268.63, "y": 119.14, "width": 154, "height": 154 }
+		},
+		"Option1": {
+			"Option1": { "x": -267.32, "y": 996.67, "width": 154, "height": 154 }
+		},
+		"Option2": {
+			"Option2": { "x": -267.56, "y": 823.43, "width": 154, "height": 154 }
+		},
+		"Option3": {
+			"Option3": { "x": -267.44, "y": 647.23, "width": 154, "height": 154 }
+		},
+		"Option4": {
+			"Option4": { "x": -267.56, "y": 470.39, "width": 154, "height": 154 }
+		},
+		"Option5": {
+			"Option5": { "x": -268.75, "y": 299.58, "width": 154, "height": 154 }
+		},
+		"Option6": {
+			"Option6": { "x": -268.75, "y": 120.38, "width": 154, "height": 154 }
+		},
+		"TextBox1": {
+			"TextBox1": { "x": 79.23, "y": 997.77, "width": 496, "height": 150 }
+		},
+		"TextBox2": {
+			"TextBox2": { "x": 78.75, "y": 823.83, "width": 496, "height": 150 }
+		},
+		"TextBox3": {
+			"TextBox3": { "x": 78.64, "y": 648.6, "width": 496, "height": 150 }
+		},
+		"TextBox4": {
+			"Textbox4": { "x": 79, "y": 470.39, "width": 496, "height": 150 }
+		},
+		"TextBox5": {
+			"TextBox5": { "x": 78.63, "y": 297.43, "width": 496, "height": 150 }
+		},
+		"TextBox6": {
+			"TextBox6": { "x": 78.76, "y": 119.83, "width": 496, "height": 150 }
+		}
+	}
+},
+"animations": {
+	"animation": {}
+}
+}

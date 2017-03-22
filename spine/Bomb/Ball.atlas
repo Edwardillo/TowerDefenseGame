@@ -1,0 +1,12 @@
+
+Ball.png
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Ball
+  rotate: false
+  xy: 2, 2
+  size: 95, 95
+  orig: 100, 100
+  offset: 1, 4
+  index: -1

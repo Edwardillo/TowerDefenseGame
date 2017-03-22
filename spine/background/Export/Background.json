@@ -1,0 +1,62 @@
+{
+"bones": [
+	{ "name": "root" },
+	{ "name": "Volcanos", "parent": "root", "length": 103.02, "x": 277.53, "y": -298.03, "rotation": 90 }
+],
+"slots": [
+	{ "name": "Template", "bone": "root", "attachment": "BG_0000_PaintLayer-3----copy", "additive": true },
+	{ "name": "BG", "bone": "root", "attachment": "BG_0000s_0012_PaintLayer-10--" },
+	{ "name": "VolcanoBase", "bone": "Volcanos", "attachment": "BG_0000s_0011_PaintLayer-6---" },
+	{ "name": "VolcanoTop", "bone": "Volcanos", "attachment": "BG_0000s_0010_PaintLayer-7---" },
+	{ "name": "Buildings", "bone": "root", "attachment": "BG_0000s_0009_PaintLayer-9---" }
+],
+"skins": {
+	"default": {
+		"BG": {
+			"BG_0000s_0012_PaintLayer-10--": { "x": 400.41, "y": -204.19, "width": 800, "height": 408 }
+		},
+		"Buildings": {
+			"BG_0000s_0009_PaintLayer-9---": { "x": 459.63, "y": -276.47, "width": 401, "height": 229 }
+		},
+		"Template": {
+			"BG_0000_PaintLayer-3----copy": { "x": 400, "y": -300, "width": 800, "height": 600 }
+		},
+		"VolcanoBase": {
+			"BG_0000s_0011_PaintLayer-6---": { "x": -18.16, "y": -44.72, "rotation": -90, "width": 645, "height": 259 }
+		},
+		"VolcanoTop": {
+			"BG_0000s_0010_PaintLayer-7---": { "x": 18.16, "y": -9.38, "rotation": -90, "width": 569, "height": 278 }
+		}
+	}
+},
+"events": {
+	"Explode": { "string": "Boom!" }
+},
+"animations": {
+	"Explode": {
+		"bones": {
+			"Volcanos": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 1.8, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 },
+					{ "time": 0.8333, "x": 0, "y": -16 },
+					{ "time": 1.8, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 },
+					{ "time": 0.8333, "x": 0.832, "y": 1 },
+					{ "time": 1.1666, "x": 1.4, "y": 1 },
+					{ "time": 1.8, "x": 1, "y": 1 }
+				]
+			}
+		},
+		"events": [
+			{ "time": 1.1666, "name": "Explode" }
+		]
+	},
+	"Still": {}
+}
+}

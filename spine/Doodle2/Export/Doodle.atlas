@@ -1,0 +1,187 @@
+
+Doodle.png
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Arrow
+  rotate: false
+  xy: 2002, 306
+  size: 44, 204
+  orig: 44, 204
+  offset: 0, 0
+  index: -1
+Bomb
+  rotate: false
+  xy: 698, 259
+  size: 255, 251
+  orig: 256, 256
+  offset: 0, 3
+  index: -1
+Bow_0001_Layer-2
+  rotate: true
+  xy: 955, 19
+  size: 130, 187
+  orig: 130, 187
+  offset: 0, 0
+  index: -1
+Casco
+  rotate: false
+  xy: 2, 107
+  size: 536, 403
+  orig: 570, 453
+  offset: 17, 28
+  index: -1
+Doodle2_0001_PaintLayer-7---
+  rotate: false
+  xy: 1588, 149
+  size: 171, 165
+  orig: 171, 165
+  offset: 0, 0
+  index: -1
+Doodle2_0002_PaintLayer-6---
+  rotate: false
+  xy: 1982, 242
+  size: 56, 62
+  orig: 56, 62
+  offset: 0, 0
+  index: -1
+Doodle2_0003_PaintLayer-5---
+  rotate: true
+  xy: 1761, 133
+  size: 49, 80
+  orig: 49, 80
+  offset: 0, 0
+  index: -1
+Doodle2_0004_PaintLayer-4---
+  rotate: true
+  xy: 1455, 308
+  size: 83, 103
+  orig: 83, 103
+  offset: 0, 0
+  index: -1
+Doodle2_0005_PaintLayer-3---
+  rotate: false
+  xy: 1849, 238
+  size: 131, 72
+  orig: 131, 72
+  offset: 0, 0
+  index: -1
+Doodle2_0006_PaintLayer-2---
+  rotate: false
+  xy: 1154, 174
+  size: 93, 144
+  orig: 93, 144
+  offset: 0, 0
+  index: -1
+Doodle2_0007_PaintLayer-1---
+  rotate: false
+  xy: 1761, 184
+  size: 86, 126
+  orig: 86, 126
+  offset: 0, 0
+  index: -1
+Doodle2_0008_PaintLayer-0---
+  rotate: false
+  xy: 698, 2
+  size: 142, 255
+  orig: 142, 255
+  offset: 0, 0
+  index: -1
+Doodle__0000_Link
+  rotate: false
+  xy: 1561, 316
+  size: 232, 194
+  orig: 232, 194
+  offset: 0, 0
+  index: -1
+Doodle__0001_IchigoHair
+  rotate: true
+  xy: 1427, 127
+  size: 175, 159
+  orig: 175, 159
+  offset: 0, 0
+  index: -1
+Doodle__0002_Sword
+  rotate: true
+  xy: 2, 44
+  size: 61, 503
+  orig: 61, 503
+  offset: 0, 0
+  index: -1
+Doodle__0003_SasukeHair
+  rotate: false
+  xy: 955, 151
+  size: 197, 167
+  orig: 197, 167
+  offset: 0, 0
+  index: -1
+Doodle__0004_FullHat
+  rotate: true
+  xy: 842, 27
+  size: 230, 111
+  orig: 230, 111
+  offset: 0, 0
+  index: -1
+Doodle__0005_FullMinato
+  rotate: true
+  xy: 1249, 127
+  size: 175, 176
+  orig: 175, 176
+  offset: 0, 0
+  index: -1
+Doodle__0006_Freezer
+  rotate: true
+  xy: 1946, 152
+  size: 84, 78
+  orig: 84, 78
+  offset: 0, 0
+  index: -1
+Doodle__0007_Tail
+  rotate: true
+  xy: 1253, 393
+  size: 117, 306
+  orig: 117, 306
+  offset: 0, 0
+  index: -1
+Doodle__0008_Saiyan
+  rotate: false
+  xy: 1795, 312
+  size: 205, 198
+  orig: 205, 198
+  offset: 0, 0
+  index: -1
+Doodle__0009_Book
+  rotate: false
+  xy: 2, 27
+  size: 83, 15
+  orig: 83, 15
+  offset: 0, 0
+  index: -1
+Doodle__0010_HairLight
+  rotate: false
+  xy: 1849, 151
+  size: 95, 85
+  orig: 95, 85
+  offset: 0, 0
+  index: -1
+Jetpack
+  rotate: true
+  xy: 1253, 304
+  size: 87, 200
+  orig: 87, 200
+  offset: 0, 0
+  index: -1
+Rioma
+  rotate: false
+  xy: 955, 320
+  size: 296, 190
+  orig: 296, 190
+  offset: 0, 0
+  index: -1
+Tennis
+  rotate: false
+  xy: 540, 109
+  size: 156, 401
+  orig: 156, 401
+  offset: 0, 0
+  index: -1

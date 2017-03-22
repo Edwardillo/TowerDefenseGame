@@ -1,0 +1,105 @@
+{
+"bones": [
+	{ "name": "root" },
+	{ "name": "Box", "parent": "root", "length": 105.01, "x": 2.5, "y": 118.99, "rotation": -90.9 }
+],
+"slots": [
+	{ "name": "Parachute", "bone": "Box", "attachment": "Parachute" },
+	{ "name": "Box", "bone": "Box", "attachment": "Box_0001_Caja-copy" },
+	{ "name": "ParachuteHitBox", "bone": "Box", "attachment": "Parachute_HitBox" },
+	{ "name": "Box_HitBox", "bone": "Box", "attachment": "Box_HitBox" }
+],
+"skins": {
+	"default": {
+		"Box": {
+			"Box_0001_Caja-copy": { "x": 58.98, "y": 1.41, "rotation": 90.9, "width": 130, "height": 119 }
+		},
+		"Box_HitBox": {
+			"Box_HitBox": {
+				"type": "boundingbox",
+				"vertices": [ 120.00321, -62.14376, 116.03006, 61.80871, -0.98698425, 61.94642, 1.0500793, -66.03735 ]
+			}
+		}
+	},
+	"Parachute": {
+		"Parachute": {
+			"Parachute": { "name": "Box_0000_Paracaidas-copy", "x": -79.95, "y": -3.24, "rotation": 90.9, "width": 259, "height": 178 }
+		},
+		"ParachuteHitBox": {
+			"Parachute_HitBox": {
+				"name": "Parachute_HitBoxX",
+				"type": "boundingbox",
+				"vertices": [
+					-69.80594,
+					112.85764,
+					-81.96355,
+					122.665405,
+					-123.401245,
+					87.00143,
+					-163.47298,
+					28.356293,
+					-162.51811,
+					-31.636108,
+					-119.5367,
+					-92.95984,
+					-74.009415,
+					-127.20781,
+					1.0155563,
+					-1.0296345
+				]
+			}
+		}
+	}
+},
+"animations": {
+	"Still": {
+		"bones": {
+			"root": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			}
+		}
+	},
+	"Swing": {
+		"bones": {
+			"root": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			},
+			"Box": {
+				"rotate": [
+					{ "time": 0, "angle": 0 },
+					{ "time": 0.5, "angle": -41.77 },
+					{ "time": 1, "angle": 0 },
+					{ "time": 1.5, "angle": 41.51 },
+					{ "time": 2, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 1, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 2, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 1, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 2, "x": 1, "y": 1 }
+				]
+			}
+		}
+	}
+}
+}

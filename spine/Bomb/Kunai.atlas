@@ -1,0 +1,12 @@
+
+Kunai.png
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Kunai_di_Minato
+  rotate: false
+  xy: 2, 2
+  size: 375, 90
+  orig: 400, 100
+  offset: 10, 5
+  index: -1

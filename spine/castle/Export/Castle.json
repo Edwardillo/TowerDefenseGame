@@ -1,0 +1,260 @@
+{
+"bones": [
+	{ "name": "root" },
+	{ "name": "Door", "parent": "root", "length": 241.03, "x": 496.33, "y": 3.87, "rotation": 90.45 }
+],
+"slots": [
+	{ "name": "Main", "bone": "root", "attachment": "Castle_0018_Main" },
+	{ "name": "LVL1Bot1", "bone": "root", "attachment": "Castle_0017_Lvl1Bot-copy" },
+	{ "name": "LVL1Bot2", "bone": "root", "attachment": "Castle_0017_Lvl1Bot-copy" },
+	{ "name": "Door", "bone": "Door", "attachment": "Castle_0000_Door" },
+	{ "name": "LVL1Top2", "bone": "root", "attachment": "Castle_0004_Lvl1Top" },
+	{ "name": "LVL1Top1", "bone": "root", "attachment": "Castle_0004_Lvl1Top" },
+	{ "name": "WeaponOpen", "bone": "root", "attachment": "Castle_0002_WaponEntry-copy" },
+	{ "name": "MainTop", "bone": "root", "attachment": "Castle_0009_MainTop" },
+	{ "name": "WeaponClosed", "bone": "root", "attachment": "Castle_0001_WaponEntry" },
+	{ "name": "LVL3Base", "bone": "root", "attachment": "LVL" },
+	{ "name": "EntranceLVL2", "bone": "root", "attachment": "EntranceLVL2" },
+	{ "name": "EntranceDoorLVL2", "bone": "root", "attachment": "LVL" },
+	{ "name": "LVL2Bot1", "bone": "root", "attachment": "LVL2Bot1" },
+	{ "name": "LVL2Bot2", "bone": "root", "attachment": "LVL2Bot1" },
+	{ "name": "LVL2Top1", "bone": "root", "attachment": "LVL" },
+	{ "name": "LVL2Top2", "bone": "root", "attachment": "LVL" },
+	{ "name": "LVL3Top", "bone": "root", "attachment": "LVL" },
+	{ "name": "Hitbox", "bone": "root", "attachment": "LVL" },
+	{ "name": "HitBox2", "bone": "root", "attachment": "LVL" },
+	{ "name": "HitBox3", "bone": "root", "attachment": "LVL" }
+],
+"skins": {
+	"default": {
+		"Door": {
+			"Castle_0000_Door": { "x": 122.17, "y": -0.63, "rotation": -90.45, "width": 15, "height": 252 }
+		},
+		"LVL1Bot1": {
+			"Castle_0017_Lvl1Bot-copy": { "x": 432.2, "y": 137.47, "width": 112, "height": 275 }
+		},
+		"LVL1Bot2": {
+			"Castle_0017_Lvl1Bot-copy": { "path": "Castle_0017_Lvl1Bot-copy", "x": -426.02, "y": 137.29, "width": 112, "height": 275 }
+		},
+		"LVL1Top1": {
+			"Castle_0004_Lvl1Top": { "path": "Castle_0004_Lvl1Top", "x": -426.31, "y": 307.56, "width": 112, "height": 65 }
+		},
+		"LVL1Top2": {
+			"Castle_0004_Lvl1Top": { "x": 432, "y": 307.36, "width": 112, "height": 65 }
+		},
+		"Main": {
+			"Castle_0018_Main": { "x": 8.71, "y": 363.94, "width": 247, "height": 725 }
+		},
+		"MainTop": {
+			"Castle_0009_MainTop": { "x": 14.33, "y": 844.36, "width": 427, "height": 91 }
+		},
+		"WeaponClosed": {
+			"Castle_0001_WaponEntry": { "x": 8.26, "y": 762.34, "width": 247, "height": 75 }
+		},
+		"WeaponOpen": {
+			"Castle_0002_WaponEntry-copy": { "x": 8.05, "y": 763.59, "width": 247, "height": 75 }
+		}
+	},
+	"LVL1": {
+		"HitBox2": {
+			"LVL": {
+				"name": "HitBoxV2",
+				"type": "boundingbox",
+				"vertices": [ 491.5088, 2.790039, 484.00476, 282.314, 435.2288, 338.594, 380.82477, 282.314, 375.19678, 4.666046 ]
+			}
+		},
+		"HitBox3": {
+			"LVL": {
+				"name": "HitBoxV3",
+				"type": "boundingbox",
+				"vertices": [ -367.69913, 4.6660156, -371.45114, 276.68604, -425.85513, 342.34598, -485.88712, 276.68604, -487.7631, -8.465973 ]
+			}
+		},
+		"Hitbox": {
+			"LVL": {
+				"name": "HitBox",
+				"type": "boundingbox",
+				"vertices": [
+					131.31674,
+					0.9140625,
+					133.19281,
+					798.21405,
+					226.99278,
+					798.21405,
+					120.06079,
+					893.8901,
+					-99.43121,
+					892.014,
+					-200.73517,
+					801.96606,
+					-118.19122,
+					801.96606,
+					-116.315186,
+					4.666046
+				]
+			}
+		}
+	},
+	"LVL2": {
+		"EntranceDoorLVL2": {
+			"LVL": { "name": "Castle_0010_Layer-3", "x": 3.04, "y": 145.83, "width": 293, "height": 292 }
+		},
+		"EntranceLVL2": {
+			"EntranceLVL2": { "name": "Castle_0011_Lvl2Entrance", "x": 3.38, "y": 180.68, "width": 358, "height": 363 }
+		},
+		"HitBox2": {
+			"LVL": {
+				"name": "Hitbox2lvl2",
+				"type": "boundingbox",
+				"vertices": [ -373.32712, 274.81003, 375.19684, 278.562, 384.57684, 400.502, -371.45114, 402.37802 ]
+			}
+		},
+		"HitBox3": {
+			"LVL": {
+				"name": "Hitbox3lvl2",
+				"type": "boundingbox",
+				"vertices": [ -484.01114, -2.8379822, 482.12878, 2.7900085, 482.12878, 276.68604, -482.1351, 265.43005 ]
+			}
+		},
+		"Hitbox": {
+			"LVL": {
+				"name": "HitBox2",
+				"type": "boundingbox",
+				"vertices": [
+					131.31686,
+					413.634,
+					127.56485,
+					807.59406,
+					211.98483,
+					809.4701,
+					123.812836,
+					886.386,
+					-99.43118,
+					890.138,
+					-196.98312,
+					801.96594,
+					-114.43915,
+					803.842,
+					-108.81116,
+					402.37802
+				]
+			}
+		},
+		"LVL2Bot1": {
+			"LVL2Bot1": { "name": "Castle_0012_Lvl2Bot-copy", "path": "Castle_0012_Lvl2Bot-copy", "x": -270.19, "y": 199.75, "width": 199, "height": 399 }
+		},
+		"LVL2Bot2": {
+			"LVL2Bot1": { "name": "Castle_0012_Lvl2Bot-copy", "path": "Castle_0012_Lvl2Bot-copy", "x": 275.59, "y": 199.68, "width": 199, "height": 399 }
+		},
+		"LVL2Top1": {
+			"LVL": { "name": "Castle_0006_Lvl2Top", "x": 275.08, "y": 464.8, "width": 288, "height": 131 }
+		},
+		"LVL2Top2": {
+			"LVL": { "name": "Castle_0006_Lvl2Top", "x": -268.4, "y": 464.65, "width": 288, "height": 131 }
+		}
+	},
+	"LVL3": {
+		"EntranceDoorLVL2": {
+			"LVL": { "name": "Castle_0010_Layer-3", "path": "Castle_0010_Layer-3", "x": 3.04, "y": 145.83, "width": 293, "height": 292 }
+		},
+		"EntranceLVL2": {
+			"EntranceLVL2": { "name": "Castle_0011_Lvl2Entrance", "x": 3.38, "y": 180.68, "width": 358, "height": 363 }
+		},
+		"Hitbox": {
+			"LVL": {
+				"name": "Hitbox3",
+				"type": "boundingbox",
+				"vertices": [
+					-101.30716,
+					890.138,
+					-189.47916,
+					805.71796,
+					-108.81119,
+					800.08997,
+					-121.943115,
+					725.05005,
+					-195.10715,
+					725.05005,
+					-247.6351,
+					635.002,
+					-257.0151,
+					529.94604,
+					-401.46713,
+					413.634,
+					-375.2031,
+					400.502,
+					-375.2031,
+					274.81003,
+					-478.3831,
+					269.18204,
+					-482.1351,
+					2.7900085,
+					485.88086,
+					-0.9619751,
+					482.12878,
+					274.81003,
+					378.9488,
+					274.81003,
+					367.6928,
+					394.87402,
+					240.12485,
+					503.68204,
+					272.01685,
+					631.25,
+					191.3488,
+					726.926,
+					127.56485,
+					726.926,
+					133.19284,
+					800.08997,
+					210.1088,
+					801.96594,
+					118.184845,
+					890.138
+				]
+			}
+		},
+		"LVL2Bot1": {
+			"LVL2Bot1": { "name": "Castle_0012_Lvl2Bot-copy", "x": -270.19, "y": 199.75, "width": 199, "height": 399 }
+		},
+		"LVL2Bot2": {
+			"LVL2Bot1": { "name": "Castle_0012_Lvl2Bot-copy", "x": 275.59, "y": 199.68, "width": 199, "height": 399 }
+		},
+		"LVL2Top1": {
+			"LVL": { "name": "Castle_0006_Lvl2Top", "x": 275.08, "y": 464.8, "width": 288, "height": 131 }
+		},
+		"LVL2Top2": {
+			"LVL": { "name": "Castle_0006_Lvl2Top", "x": -268.4, "y": 464.65, "width": 288, "height": 131 }
+		},
+		"LVL3Base": {
+			"LVL": { "name": "Castle_0014_LVL3base", "x": 2.32, "y": 496.96, "width": 553, "height": 273 }
+		},
+		"LVL3Top": {
+			"LVL": { "name": "Castle_0008_Lvl3Top", "x": 6.11, "y": 677.25, "width": 750, "height": 91 }
+		}
+	}
+},
+"events": {
+	"Shoot": { "string": "Shoot" }
+},
+"animations": {
+	"Shoot": {
+		"bones": {
+			"Door": {
+				"rotate": [
+					{ "time": 0, "angle": 0 },
+					{
+						"time": 1,
+						"angle": -89.38,
+						"curve": [ 0.12, 0.07, 1, -0.32 ]
+					},
+					{ "time": 2.6666, "angle": 0 }
+				]
+			}
+		},
+		"events": [
+			{ "time": 1, "name": "Shoot" }
+		]
+	}
+}
+}

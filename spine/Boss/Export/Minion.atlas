@@ -1,0 +1,12 @@
+
+Minion.png
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Head
+  rotate: false
+  xy: 2, 2
+  size: 507, 522
+  orig: 507, 522
+  offset: 0, 0
+  index: -1

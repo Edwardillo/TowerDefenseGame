@@ -1,0 +1,100 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XnaContent xmlns:Pipeline="Microsoft.Xna.Framework.Content.Pipeline">
+  <Asset Type="Pipeline:BuildItemCollection">
+    <Item>
+      <Source>Frieza.png</Source>
+      <Name>Frieza</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Desktop\Desktop\Doddle Defense\Doddle Defense\Doddle Defense\bin\x86\Debug\Content\Frieza.xnb</Output>
+      <Time>2013-11-16T17:39:26.6227335-04:00</Time>
+    </Item>
+    <Item>
+      <Source>test.png</Source>
+      <Name>test</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Desktop\Desktop\Doddle Defense\Doddle Defense\Doddle Defense\bin\x86\Debug\Content\test.xnb</Output>
+      <Time>2013-11-16T13:14:56.3519842-04:00</Time>
+    </Item>
+    <Item>
+      <Source>Elife.png</Source>
+      <Name>Elife</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Desktop\Desktop\Doddle Defense\Doddle Defense\Doddle Defense\bin\x86\Debug\Content\Elife.xnb</Output>
+      <Time>2013-11-16T17:27:04.7293213-04:00</Time>
+    </Item>
+    <Item>
+      <Source>HealthBar.png</Source>
+      <Name>HealthBar</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Desktop\Desktop\Doddle Defense\Doddle Defense\Doddle Defense\bin\x86\Debug\Content\HealthBar.xnb</Output>
+      <Time>2013-11-16T17:27:04.7293213-04:00</Time>
+    </Item>
+    <Item>
+      <Source>Meteorito.png</Source>
+      <Name>Meteorito</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Desktop\Desktop\Doddle Defense\Doddle Defense\Doddle Defense\bin\x86\Debug\Content\Meteorito.xnb</Output>
+      <Time>2013-11-16T18:45:19.6333291-04:00</Time>
+    </Item>
+    <Item>
+      <Source>Box.png</Source>
+      <Name>Box</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Desktop\Desktop\Doddle Defense\Doddle Defense\Doddle Defense\bin\x86\Debug\Content\Box.xnb</Output>
+      <Time>2013-11-16T16:56:21.1983041-04:00</Time>
+    </Item>
+    <BuildSuccessful>true</BuildSuccessful>
+    <Settings>
+      <TargetPlatform>Windows</TargetPlatform>
+      <TargetProfile>HiDef</TargetProfile>
+      <BuildConfiguration>Debug</BuildConfiguration>
+      <CompressContent>false</CompressContent>
+      <RootDirectory>C:\Users\Desktop\Desktop\Doddle Defense\Doddle Defense\Doddle DefenseContent\</RootDirectory>
+      <LoggerRootDirectory>C:\Users\Desktop\Desktop\Doddle Defense\Doddle Defense\Doddle Defense\</LoggerRootDirectory>
+      <IntermediateDirectory>C:\Users\Desktop\Desktop\Doddle Defense\Doddle Defense\Doddle DefenseContent\obj\x86\Debug\</IntermediateDirectory>
+      <OutputDirectory>C:\Users\Desktop\Desktop\Doddle Defense\Doddle Defense\Doddle Defense\bin\x86\Debug\Content\</OutputDirectory>
+    </Settings>
+    <Assemblies>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.XImporter.dll</Key>
+        <Value>2010-08-23T12:41:18-04:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.VideoImporters.dll</Key>
+        <Value>2010-08-23T12:41:18-04:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.TextureImporter.dll</Key>
+        <Value>2010-08-23T12:41:18-04:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.FBXImporter.dll</Key>
+        <Value>2010-08-23T12:41:18-04:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.EffectImporter.dll</Key>
+        <Value>2010-08-23T12:41:18-04:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.AudioImporters.dll</Key>
+        <Value>2010-08-23T12:41:18-04:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\WINDOWS\Microsoft.Net\assembly\GAC_32\Microsoft.Xna.Framework.Content.Pipeline\v4.0_4.0.0.0__842cf8be1de50553\Microsoft.Xna.Framework.Content.Pipeline.dll</Key>
+        <Value>2013-10-19T18:50:12.9476597-04:00</Value>
+      </Assembly>
+    </Assemblies>
+  </Asset>
+</XnaContent>

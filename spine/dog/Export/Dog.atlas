@@ -1,0 +1,33 @@
+
+Dog.png
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+dog_0000_PaintLayer-1---
+  rotate: false
+  xy: 2, 6
+  size: 500, 363
+  orig: 500, 363
+  offset: 0, 0
+  index: -1
+dog_0001_PaintLayer-3---
+  rotate: false
+  xy: 504, 2
+  size: 482, 367
+  orig: 482, 367
+  offset: 0, 0
+  index: -1
+dog_0002_PaintLayer-2---
+  rotate: false
+  xy: 1301, 134
+  size: 312, 235
+  orig: 312, 235
+  offset: 0, 0
+  index: -1
+dog_0003_PaintLayer-0---
+  rotate: false
+  xy: 988, 84
+  size: 311, 285
+  orig: 311, 285
+  offset: 0, 0
+  index: -1

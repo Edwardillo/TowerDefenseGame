@@ -1,0 +1,112 @@
+{
+"bones": [
+	{ "name": "root" }
+],
+"slots": [
+	{ "name": "Fondo", "bone": "root", "attachment": "Fondo" },
+	{ "name": "Box1", "bone": "root", "attachment": "Box1" },
+	{ "name": "Box2", "bone": "root", "attachment": "Box2" },
+	{ "name": "Box3", "bone": "root", "attachment": "Box3" },
+	{ "name": "Box4", "bone": "root", "attachment": "Box4" },
+	{ "name": "Option1", "bone": "root", "attachment": "Option1" },
+	{ "name": "Option2", "bone": "root", "color": "ffffff00", "attachment": "Option2" },
+	{ "name": "Option3", "bone": "root", "color": "ffffff00", "attachment": "Option3" },
+	{ "name": "Option4", "bone": "root", "color": "ffffff00", "attachment": "Option4" },
+	{ "name": "Bar1", "bone": "root", "attachment": "Bar1" },
+	{ "name": "Bar2", "bone": "root", "attachment": "Bar2" },
+	{ "name": "Bar3", "bone": "root", "attachment": "Bar3" },
+	{ "name": "Bar4", "bone": "root", "attachment": "Bar4" },
+	{ "name": "SkinOption1", "bone": "root", "attachment": "SkinOption" },
+	{ "name": "SkinOption2", "bone": "root", "attachment": "SkinOption" },
+	{ "name": "SkinOption3", "bone": "root", "attachment": "SkinOption" },
+	{ "name": "SkinOption4", "bone": "root", "attachment": "SkinOption" }
+],
+"skins": {
+	"default": {
+		"Bar1": {
+			"Bar1": { "x": 89.05, "y": 597.44, "width": 443, "height": 29 }
+		},
+		"Bar2": {
+			"Bar2": { "x": 89.05, "y": 422.47, "width": 443, "height": 29 }
+		},
+		"Bar3": {
+			"Bar3": { "x": 87.09, "y": 245.53, "width": 443, "height": 29 }
+		},
+		"Bar4": {
+			"Bar4": { "x": 89.05, "y": 69.55, "width": 443, "height": 29 }
+		},
+		"Box1": {
+			"Box1": { "x": 86.09, "y": 638.73, "width": 496, "height": 150 }
+		},
+		"Box2": {
+			"Box2": { "x": 86.12, "y": 466.69, "width": 496, "height": 150 }
+		},
+		"Box3": {
+			"Box3": { "x": 87.05, "y": 290.75, "width": 496, "height": 150 }
+		},
+		"Box4": {
+			"Box4": { "x": 86.12, "y": 115.77, "width": 496, "height": 150 }
+		},
+		"Fondo": {
+			"Fondo": { "x": -2.48, "y": 376.39, "width": 760, "height": 759 }
+		},
+		"Option1": {
+			"Option1": { "x": -260.89, "y": 640.69, "width": 154, "height": 154 }
+		},
+		"Option2": {
+			"Option2": { "x": -258.92, "y": 465.72, "width": 154, "height": 154 }
+		},
+		"Option3": {
+			"Option3": { "x": -259.89, "y": 290.75, "width": 154, "height": 154 }
+		},
+		"Option4": {
+			"Option4": { "x": -259.89, "y": 117.74, "width": 154, "height": 154 }
+		}
+	},
+	"Armas": {
+		"SkinOption1": {
+			"SkinOption": { "name": "Ammo", "x": -31.45, "y": 645.84, "width": 206, "height": 49 }
+		},
+		"SkinOption2": {
+			"SkinOption": { "name": "Heat", "x": -36.35, "y": 465.94, "width": 198, "height": 49 }
+		},
+		"SkinOption3": {
+			"SkinOption": { "name": "Dano", "x": -36.42, "y": 292.86, "width": 198, "height": 49 }
+		},
+		"SkinOption4": {
+			"SkinOption": { "name": "Firerate", "x": 54.97, "y": 115.99, "width": 375, "height": 49 }
+		}
+	},
+	"Link": {
+		"SkinOption1": {
+			"SkinOption": { "name": "Explosion", "x": 69.01, "y": 645.29, "width": 400, "height": 49 }
+		},
+		"SkinOption2": {
+			"SkinOption": { "name": "Escudo", "x": 60.21, "y": 470.9, "width": 399, "height": 49 }
+		},
+		"SkinOption3": {
+			"SkinOption": { "name": "Dano", "x": -35.38, "y": 290.96, "width": 198, "height": 49 }
+		},
+		"SkinOption4": {
+			"SkinOption": { "name": "Velocidad", "x": 73.74, "y": 117.95, "width": 421, "height": 49 }
+		}
+	},
+	"Torre": {
+		"SkinOption1": {
+			"SkinOption": { "name": "Vida", "x": -47.21, "y": 644.84, "width": 177, "height": 49 }
+		},
+		"SkinOption2": {
+			"SkinOption": { "name": "goku", "x": 72.74, "y": 466.86, "width": 467, "height": 149 }
+		},
+		"SkinOption3": {
+			"SkinOption": { "name": "luffy", "x": 71.48, "y": 291.6, "width": 464, "height": 151 }
+		},
+		"SkinOption4": {
+			"SkinOption": { "name": "ichigo", "x": 71.59, "y": 117.23, "width": 464, "height": 153 }
+		}
+	}
+},
+"animations": {
+	"animation": {}
+}
+}

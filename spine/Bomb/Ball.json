@@ -1,0 +1,26 @@
+{
+"bones": [
+	{ "name": "root" },
+	{ "name": "Main", "parent": "root", "length": 103.22, "x": -0.18, "y": 0.16, "scaleX": 0.01, "scaleY": 0.01 }
+],
+"slots": [
+	{ "name": "TestObject", "bone": "Main", "attachment": "Ball" },
+	{ "name": "Main_Hitbox", "bone": "root", "attachment": "Main_Hitbox" }
+],
+"skins": {
+	"default": {
+		"Main_Hitbox": {
+			"Main_Hitbox": {
+				"type": "boundingbox",
+				"vertices": [ -146.31686, -34.45169, 37.427048, -40.83168, 19.56305, 148.01627, -166.73288, 151.84424 ]
+			}
+		},
+		"TestObject": {
+			"Ball": { "x": -6021, "y": 4816.8, "scaleX": 203.445, "scaleY": 203.445, "width": 100, "height": 100 }
+		}
+	}
+},
+"animations": {
+	"Still": {}
+}
+}

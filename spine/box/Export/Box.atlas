@@ -1,0 +1,19 @@
+
+Box.png
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Box_0000_Paracaidas-copy
+  rotate: false
+  xy: 2, 2
+  size: 259, 178
+  orig: 259, 178
+  offset: 0, 0
+  index: -1
+Box_0001_Caja-copy
+  rotate: false
+  xy: 263, 61
+  size: 130, 119
+  orig: 130, 119
+  offset: 0, 0
+  index: -1

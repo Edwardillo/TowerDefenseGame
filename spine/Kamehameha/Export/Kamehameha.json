@@ -1,0 +1,108 @@
+{
+"bones": [
+	{ "name": "root" },
+	{ "name": "Ray", "parent": "root", "x": 60.02, "y": 0.39 },
+	{ "name": "FrontBall", "parent": "Ray", "x": 163.38, "y": 0.84 }
+],
+"slots": [
+	{ "name": "Ray", "bone": "Ray", "attachment": "Ray", "additive": true },
+	{ "name": "Ball", "bone": "root", "attachment": "Ball", "additive": true },
+	{ "name": "Ball2", "bone": "FrontBall", "attachment": "Ball", "additive": true },
+	{ "name": "Ray2", "bone": "Ray", "attachment": "HitBox" },
+	{ "name": "HitboxBall", "bone": "FrontBall", "attachment": "HitboxBall" }
+],
+"skins": {
+	"default": {
+		"Ball": {
+			"Ball": { "width": 354, "height": 359 }
+		},
+		"Ball2": {
+			"Ball": { "x": 42.47, "y": 4.43, "scaleX": 0.815, "scaleY": 0.815, "width": 354, "height": 359 }
+		},
+		"HitboxBall": {
+			"HitboxBall": {
+				"type": "boundingbox",
+				"vertices": [ 134.16939, -77.54654, 134.16939, 83.18148, -45.02063, 88.61148, -39.590607, -87.320526 ]
+			}
+		},
+		"Ray": {
+			"Ray": { "x": 91.14, "y": 0.38, "scaleX": 0.991, "scaleY": 0.991, "width": 277, "height": 276 }
+		},
+		"Ray2": {
+			"HitBox": {
+				"type": "boundingbox",
+				"vertices": [ -0.010917664, -88.64847, 180.2651, -88.64847, 178.09311, 90.541534, 1.0751114, 86.19753 ]
+			}
+		}
+	}
+},
+"animations": {
+	"Load": {
+		"bones": {
+			"root": {
+				"scale": [
+					{ "time": 0, "x": 0.09, "y": 0.09 },
+					{ "time": 2, "x": 0.897, "y": 0.897 }
+				]
+			},
+			"Ray": {
+				"scale": [
+					{ "time": 0, "x": 0.009, "y": 0.009 }
+				]
+			},
+			"FrontBall": {
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 }
+				]
+			}
+		}
+	},
+	"Shoot": {
+		"bones": {
+			"root": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 2, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 2, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 2, "x": 1, "y": 1 },
+					{ "time": 4, "x": 1, "y": -0.019 }
+				]
+			},
+			"Ray": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 2, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 2, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 },
+					{ "time": 2, "x": 15.059, "y": 1 }
+				]
+			},
+			"FrontBall": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 2, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 2, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 2, "x": 1, "y": 1 }
+				]
+			}
+		}
+	}
+}
+}

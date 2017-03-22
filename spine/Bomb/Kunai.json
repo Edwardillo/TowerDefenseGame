@@ -1,0 +1,43 @@
+{
+"bones": [
+	{ "name": "root" },
+	{ "name": "Main", "parent": "root", "length": 103.22, "x": -0.18, "y": 0.16, "scaleX": 0.01, "scaleY": 0.01 }
+],
+"slots": [
+	{ "name": "TestObject", "bone": "Main", "attachment": "Kunai_di_Minato" },
+	{ "name": "Main_Hitbox", "bone": "root", "attachment": "Main_Hitbox" }
+],
+"skins": {
+	"default": {
+		"Main_Hitbox": {
+			"Main_Hitbox": {
+				"type": "boundingbox",
+				"vertices": [
+					298.89206,
+					5.975888,
+					303.278,
+					92.233925,
+					-35.905964,
+					73.2279,
+					-136.784,
+					141.94188,
+					-435.03204,
+					61.53186,
+					-164.56201,
+					-45.194103,
+					-73.91802,
+					-18.878122,
+					-50.525993,
+					27.905857
+				]
+			}
+		},
+		"TestObject": {
+			"Kunai_di_Minato": { "x": -6021, "y": 4816.8, "scaleX": 203.445, "scaleY": 203.445, "width": 400, "height": 100 }
+		}
+	}
+},
+"animations": {
+	"Still": {}
+}
+}

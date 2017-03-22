@@ -1,0 +1,160 @@
+{
+"bones": [
+	{ "name": "root" },
+	{ "name": "Head", "parent": "root", "length": 150, "x": 0.5, "y": 82.99, "rotation": 90 },
+	{ "name": "LFist", "parent": "Head", "length": 40.45, "x": -19.99, "y": -124.99, "rotation": 40.07 },
+	{ "name": "RFist", "parent": "Head", "length": 37.21, "x": -20.99, "y": 141, "rotation": -30.56 }
+],
+"slots": [
+	{ "name": "Head", "bone": "Head", "attachment": "Head" },
+	{ "name": "LFist", "bone": "LFist", "attachment": "LFist" },
+	{ "name": "Rfist", "bone": "RFist", "attachment": "Rfist" },
+	{ "name": "Head_HitBox", "bone": "Head", "attachment": "Head_HitBox" },
+	{ "name": "LFist_HB", "bone": "LFist", "attachment": "HitBox" },
+	{ "name": "RFist_HitBox", "bone": "RFist", "attachment": "RFist_HB" }
+],
+"skins": {
+	"default": {
+		"Head": {
+			"Head": { "x": 180.41, "y": -16.29, "rotation": -90, "width": 507, "height": 522 }
+		},
+		"Head_HitBox": {
+			"Head_HitBox": {
+				"type": "boundingbox",
+				"vertices": [ 21.331306, -230.26599, 428.76123, -206.12204, 302.00525, 222.43394, -23.938766, 174.14589, -75.244736, 8.155906 ]
+			}
+		},
+		"LFist": {
+			"LFist": { "x": 20.89, "y": 6.76, "rotation": -111.12, "width": 95, "height": 112 }
+		},
+		"LFist_HB": {
+			"HitBox": {
+				"type": "boundingbox",
+				"vertices": [ -28.348728, -18.671082, 60.64297, -39.18959, 75.550934, 38.82512, -16.255764, 38.771034 ]
+			}
+		},
+		"RFist_HitBox": {
+			"RFist_HB": {
+				"type": "boundingbox",
+				"vertices": [ -27.60633, -35.726097, 70.057686, -52.07724, 59.7594, 41.64743, -13.897697, 22.814133 ]
+			}
+		},
+		"Rfist": {
+			"Rfist": { "x": 25.27, "y": -10.75, "rotation": -77.23, "width": 95, "height": 112 }
+		}
+	}
+},
+"animations": {
+	"Stand": {
+		"bones": {
+			"Head": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 1.3666, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 },
+					{ "time": 0.6666, "x": 0, "y": 81.39 },
+					{ "time": 1.3666, "x": 0, "y": 0 }
+				]
+			},
+			"RFist": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 1.3666, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 },
+					{ "time": 0.6666, "x": -36.7, "y": 36.7 },
+					{ "time": 1.3666, "x": 0, "y": 0 }
+				]
+			},
+			"LFist": {
+				"rotate": [
+					{ "time": 0, "angle": 0, "curve": "stepped" },
+					{ "time": 1.3666, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 },
+					{ "time": 0.6666, "x": -63.83, "y": -57.45 },
+					{ "time": 1.3666, "x": 0, "y": 0 }
+				]
+			}
+		}
+	},
+	"ThrowLPunch": {
+		"bones": {
+			"RFist": {
+				"rotate": [
+					{ "time": 0, "angle": 0 },
+					{ "time": 1, "angle": -127.04 },
+					{ "time": 1.6666, "angle": 117.05 },
+					{ "time": 2.8333, "angle": -34.56 },
+					{ "time": 3.1666, "angle": -148.49 },
+					{ "time": 3.5, "angle": 110 },
+					{ "time": 6, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 },
+					{ "time": 1, "x": -56.14, "y": 98.82 },
+					{ "time": 1.6666, "x": 12.35, "y": 224.59 },
+					{ "time": 2.8333, "x": 251.55, "y": -505.35 },
+					{ "time": 3.5, "x": 76.99, "y": 169.16 },
+					{ "time": 4.6666, "x": 37.44, "y": 2982.22 },
+					{ "time": 6, "x": 0, "y": 0 }
+				]
+			}
+		},
+		"draworder": [
+			{ "time": 0 },
+			{
+				"time": 1.6666,
+				"offsets": [
+					{ "slot": "Rfist", "offset": -2 }
+				]
+			},
+			{ "time": 2.8333 },
+			{ "time": 6 }
+		]
+	},
+	"ThrowRPunch": {
+		"bones": {
+			"RFist": {
+				"rotate": [
+					{ "time": 0, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0 }
+				]
+			},
+			"LFist": {
+				"rotate": [
+					{ "time": 0, "angle": 0 },
+					{ "time": 0.1666, "angle": -121.76 },
+					{ "time": 0.3333, "angle": 91.32 },
+					{ "time": 0.5, "angle": 0, "curve": "stepped" },
+					{ "time": 0.6666, "angle": 0 },
+					{ "time": 0.8333, "angle": -121.76 },
+					{ "time": 1, "angle": 91.32 },
+					{ "time": 1.1666, "angle": 0 },
+					{ "time": 2.8333, "angle": 51.66 },
+					{ "time": 5.6666, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 1.1666, "x": 0, "y": 0 },
+					{ "time": 2.8333, "x": 64.39, "y": 2466 },
+					{ "time": 5.6666, "x": 0, "y": 0 }
+				]
+			}
+		},
+		"draworder": [
+			{ "time": 0 },
+			{ "time": 0.5 },
+			{ "time": 0.6666 },
+			{ "time": 1.1666 },
+			{ "time": 5.6666 }
+		]
+	}
+}
+}

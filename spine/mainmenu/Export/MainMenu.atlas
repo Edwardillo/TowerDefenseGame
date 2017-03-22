@@ -1,0 +1,61 @@
+
+MainMenu.png
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+BG
+  rotate: false
+  xy: 2, 335
+  size: 800, 600
+  orig: 800, 600
+  offset: 0, 0
+  index: -1
+Exit
+  rotate: false
+  xy: 2, 2
+  size: 240, 91
+  orig: 240, 91
+  offset: 0, 0
+  index: -1
+HighScores
+  rotate: true
+  xy: 804, 473
+  size: 462, 91
+  orig: 462, 91
+  offset: 0, 0
+  index: -1
+HowToPlay
+  rotate: false
+  xy: 2, 95
+  size: 462, 91
+  orig: 462, 91
+  offset: 0, 0
+  index: -1
+Luis-Rojas-Edward-Romero
+  rotate: false
+  xy: 495, 191
+  size: 263, 49
+  orig: 263, 49
+  offset: 0, 0
+  index: -1
+Play
+  rotate: false
+  xy: 495, 242
+  size: 279, 91
+  orig: 279, 91
+  offset: 0, 0
+  index: -1
+Pucmm
+  rotate: true
+  xy: 897, 675
+  size: 260, 86
+  orig: 260, 86
+  offset: 0, 0
+  index: -1
+Tower----Defense
+  rotate: false
+  xy: 2, 188
+  size: 491, 145
+  orig: 491, 145
+  offset: 0, 0
+  index: -1

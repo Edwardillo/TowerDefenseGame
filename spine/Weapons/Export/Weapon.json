@@ -1,0 +1,29 @@
+{
+"bones": [
+	{ "name": "root" },
+	{ "name": "Main", "parent": "root", "length": 103.22, "x": -0.18, "y": 0.16 }
+],
+"slots": [
+	{ "name": "Weapon", "bone": "Main", "attachment": "Weapon" }
+],
+"skins": {
+	"Fireblast": {
+		"Weapon": {
+			"Weapon": { "name": "FlameThrower", "x": 37.75, "y": -20.5, "width": 463, "height": 150 }
+		}
+	},
+	"SMG": {
+		"Weapon": {
+			"Weapon": { "name": "SMG", "x": 88.32, "y": -6.6, "width": 373, "height": 139 }
+		}
+	},
+	"Sniper": {
+		"Weapon": {
+			"Weapon": { "name": "Sniper", "x": 122.24, "y": -21.69, "scaleX": 1.213, "scaleY": 1.213, "width": 456, "height": 114 }
+		}
+	}
+},
+"animations": {
+	"Still": {}
+}
+}

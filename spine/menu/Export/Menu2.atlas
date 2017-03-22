@@ -1,0 +1,173 @@
+
+Menu2.png
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Ammo
+  rotate: false
+  xy: 500, 165
+  size: 206, 49
+  orig: 206, 49
+  offset: 0, 0
+  index: -1
+Bar1
+  rotate: false
+  xy: 2, 33
+  size: 443, 29
+  orig: 443, 29
+  offset: 0, 0
+  index: -1
+Bar2
+  rotate: true
+  xy: 915, 377
+  size: 443, 29
+  orig: 443, 29
+  offset: 0, 0
+  index: -1
+Bar3
+  rotate: false
+  xy: 2, 2
+  size: 443, 29
+  orig: 443, 29
+  offset: 0, 0
+  index: -1
+Bar4
+  rotate: true
+  xy: 946, 377
+  size: 443, 29
+  orig: 443, 29
+  offset: 0, 0
+  index: -1
+Box1
+  rotate: false
+  xy: 2, 64
+  size: 496, 150
+  orig: 496, 150
+  offset: 0, 0
+  index: -1
+Box2
+  rotate: false
+  xy: 2, 64
+  size: 496, 150
+  orig: 496, 150
+  offset: 0, 0
+  index: -1
+Box3
+  rotate: false
+  xy: 2, 64
+  size: 496, 150
+  orig: 496, 150
+  offset: 0, 0
+  index: -1
+Box4
+  rotate: false
+  xy: 2, 64
+  size: 496, 150
+  orig: 496, 150
+  offset: 0, 0
+  index: -1
+Dano
+  rotate: false
+  xy: 500, 114
+  size: 198, 49
+  orig: 198, 49
+  offset: 0, 0
+  index: -1
+Escudo
+  rotate: true
+  xy: 1079, 421
+  size: 399, 49
+  orig: 399, 49
+  offset: 0, 0
+  index: -1
+Explosion
+  rotate: true
+  xy: 1028, 420
+  size: 400, 49
+  orig: 400, 49
+  offset: 0, 0
+  index: -1
+Firerate
+  rotate: true
+  xy: 1130, 445
+  size: 375, 49
+  orig: 375, 49
+  offset: 0, 0
+  index: -1
+Fondo
+  rotate: false
+  xy: 2, 216
+  size: 760, 759
+  orig: 760, 759
+  offset: 0, 0
+  index: -1
+Heat
+  rotate: false
+  xy: 500, 63
+  size: 198, 49
+  orig: 198, 49
+  offset: 0, 0
+  index: -1
+Option1
+  rotate: false
+  xy: 1696, 821
+  size: 154, 154
+  orig: 154, 154
+  offset: 0, 0
+  index: -1
+Option2
+  rotate: false
+  xy: 1696, 821
+  size: 154, 154
+  orig: 154, 154
+  offset: 0, 0
+  index: -1
+Option3
+  rotate: false
+  xy: 1696, 821
+  size: 154, 154
+  orig: 154, 154
+  offset: 0, 0
+  index: -1
+Option4
+  rotate: false
+  xy: 1696, 821
+  size: 154, 154
+  orig: 154, 154
+  offset: 0, 0
+  index: -1
+Velocidad
+  rotate: true
+  xy: 977, 399
+  size: 421, 49
+  orig: 421, 49
+  offset: 0, 0
+  index: -1
+Vida
+  rotate: false
+  xy: 1852, 926
+  size: 177, 49
+  orig: 177, 49
+  offset: 0, 0
+  index: -1
+goku
+  rotate: true
+  xy: 764, 353
+  size: 467, 149
+  orig: 467, 149
+  offset: 0, 0
+  index: -1
+ichigo
+  rotate: false
+  xy: 764, 822
+  size: 464, 153
+  orig: 464, 153
+  offset: 0, 0
+  index: -1
+luffy
+  rotate: false
+  xy: 1230, 824
+  size: 464, 151
+  orig: 464, 151
+  offset: 0, 0
+  index: -1

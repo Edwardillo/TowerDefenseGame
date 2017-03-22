@@ -1,0 +1,19 @@
+
+Kamehameha.png
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Ball
+  rotate: false
+  xy: 2, 2
+  size: 354, 359
+  orig: 354, 359
+  offset: 0, 0
+  index: -1
+Ray
+  rotate: false
+  xy: 358, 85
+  size: 277, 276
+  orig: 277, 276
+  offset: 0, 0
+  index: -1

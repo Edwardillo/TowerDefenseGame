@@ -1,0 +1,24 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual C# Express 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Doddle Defense", "Doddle Defense\Doddle Defense\Doddle Defense.csproj", "{C45A8B98-4E19-4BF4-A369-C2693787C4BB}"
+EndProject
+Project("{96E2B04D-8817-42C6-938A-82C39BA4D311}") = "Doddle DefenseContent", "Doddle Defense\Doddle DefenseContent\Doddle DefenseContent.contentproj", "{97FFF41F-E1A5-41DB-A4E1-8A5A52EFCF4B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C45A8B98-4E19-4BF4-A369-C2693787C4BB}.Debug|x86.ActiveCfg = Debug|x86
+		{C45A8B98-4E19-4BF4-A369-C2693787C4BB}.Debug|x86.Build.0 = Debug|x86
+		{C45A8B98-4E19-4BF4-A369-C2693787C4BB}.Release|x86.ActiveCfg = Release|x86
+		{C45A8B98-4E19-4BF4-A369-C2693787C4BB}.Release|x86.Build.0 = Release|x86
+		{97FFF41F-E1A5-41DB-A4E1-8A5A52EFCF4B}.Debug|x86.ActiveCfg = Debug|x86
+		{97FFF41F-E1A5-41DB-A4E1-8A5A52EFCF4B}.Release|x86.ActiveCfg = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

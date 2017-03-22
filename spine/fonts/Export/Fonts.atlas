@@ -1,0 +1,12 @@
+
+Fonts.png
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+GameOverA
+  rotate: false
+  xy: 2, 2
+  size: 470, 51
+  orig: 470, 51
+  offset: 0, 0
+  index: -1

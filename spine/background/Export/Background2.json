@@ -1,0 +1,37 @@
+{
+"bones": [
+	{ "name": "root" }
+],
+"slots": [
+	{ "name": "River", "bone": "root", "attachment": "BG_0000s_0008_PaintLayer-0---" },
+	{ "name": "Mountains", "bone": "root", "attachment": "BG_0000s_0007_PaintLayer-4---" },
+	{ "name": "Lines", "bone": "root", "attachment": "BG_0000s_0005_PaintLayer-11--" },
+	{ "name": "Floor", "bone": "root", "attachment": "BG_0000s_0002_Floor" },
+	{ "name": "HudPlaceHolder", "bone": "root", "attachment": "BG_0000s_0003_Layer-1" }
+],
+"skins": {
+	"default": {
+		"Floor": {
+			"BG_0000s_0002_Floor": { "x": 399.72, "y": -503.52, "width": 800, "height": 44 }
+		},
+		"HudPlaceHolder": {
+			"BG_0000s_0003_Layer-1": { "x": 399.73, "y": -562.64, "width": 800, "height": 75 }
+		},
+		"Lines": {
+			"BG_0000s_0005_PaintLayer-11--": { "x": 400.13, "y": -322.26, "width": 800, "height": 365 }
+		},
+		"Mountains": {
+			"BG_0000s_0007_PaintLayer-4---": { "x": 399.33, "y": -359.33, "width": 800, "height": 326 }
+		},
+		"River": {
+			"BG_0000s_0008_PaintLayer-0---": { "x": 442.65, "y": -442.99, "width": 295, "height": 133 }
+		}
+	}
+},
+"events": {
+	"Explode": { "string": "Boom!" }
+},
+"animations": {
+	"Still": {}
+}
+}

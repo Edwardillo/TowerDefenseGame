@@ -1,0 +1,12 @@
+
+Disc.png
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Disc
+  rotate: false
+  xy: 2, 2
+  size: 174, 174
+  orig: 200, 200
+  offset: 12, 12
+  index: -1

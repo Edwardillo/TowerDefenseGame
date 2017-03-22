@@ -1,0 +1,138 @@
+
+Menu.png
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Arma1
+  rotate: false
+  xy: 1614, 449
+  size: 154, 153
+  orig: 154, 154
+  offset: 0, 0
+  index: -1
+Arma2
+  rotate: false
+  xy: 1116, 166
+  size: 154, 140
+  orig: 154, 154
+  offset: 0, 2
+  index: -1
+Arma3
+  rotate: false
+  xy: 1614, 760
+  size: 154, 154
+  orig: 154, 154
+  offset: 0, 0
+  index: -1
+Car
+  rotate: false
+  xy: 1614, 315
+  size: 154, 132
+  orig: 154, 132
+  offset: 0, 0
+  index: -1
+Castillo
+  rotate: false
+  xy: 1770, 620
+  size: 154, 138
+  orig: 154, 138
+  offset: 0, 0
+  index: -1
+Fondo
+  rotate: true
+  xy: 2, 154
+  size: 760, 1112
+  orig: 760, 1112
+  offset: 0, 0
+  index: -1
+Link
+  rotate: false
+  xy: 1614, 604
+  size: 154, 154
+  orig: 154, 154
+  offset: 0, 0
+  index: -1
+Option1
+  rotate: false
+  xy: 1770, 760
+  size: 154, 154
+  orig: 154, 154
+  offset: 0, 0
+  index: -1
+Option3
+  rotate: false
+  xy: 1770, 760
+  size: 154, 154
+  orig: 154, 154
+  offset: 0, 0
+  index: -1
+Option2
+  rotate: false
+  xy: 1770, 760
+  size: 154, 154
+  orig: 154, 154
+  offset: 0, 0
+  index: -1
+Option4
+  rotate: false
+  xy: 1770, 760
+  size: 154, 154
+  orig: 154, 154
+  offset: 0, 0
+  index: -1
+Option5
+  rotate: false
+  xy: 1770, 760
+  size: 154, 154
+  orig: 154, 154
+  offset: 0, 0
+  index: -1
+Option6
+  rotate: false
+  xy: 1770, 760
+  size: 154, 154
+  orig: 154, 154
+  offset: 0, 0
+  index: -1
+TextBox1
+  rotate: false
+  xy: 2, 2
+  size: 496, 150
+  orig: 496, 150
+  offset: 0, 0
+  index: -1
+TextBox2
+  rotate: false
+  xy: 1116, 764
+  size: 496, 150
+  orig: 496, 150
+  offset: 0, 0
+  index: -1
+TextBox3
+  rotate: false
+  xy: 500, 2
+  size: 496, 150
+  orig: 496, 150
+  offset: 0, 0
+  index: -1
+TextBox5
+  rotate: false
+  xy: 1116, 612
+  size: 496, 150
+  orig: 496, 150
+  offset: 0, 0
+  index: -1
+TextBox6
+  rotate: false
+  xy: 1116, 460
+  size: 496, 150
+  orig: 496, 150
+  offset: 0, 0
+  index: -1
+Textbox4
+  rotate: false
+  xy: 1116, 308
+  size: 496, 150
+  orig: 496, 150
+  offset: 0, 0
+  index: -1

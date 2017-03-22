@@ -1,0 +1,106 @@
+{
+"bones": [
+	{ "name": "root" },
+	{ "name": "Names", "parent": "root", "x": 643.44, "y": 34.99 },
+	{ "name": "Pucmm", "parent": "root", "x": 79.69, "y": 55.71 },
+	{ "name": "TD", "parent": "root", "x": 224.15, "y": 514.77 }
+],
+"slots": [
+	{ "name": "Fondo", "bone": "root", "attachment": "BG" },
+	{ "name": "Option1", "bone": "root", "color": "ffffff00", "attachment": "Play" },
+	{ "name": "Option2", "bone": "root", "color": "ffffff00", "attachment": "HighScores" },
+	{ "name": "Option3", "bone": "root", "color": "ffffff00", "attachment": "HowToPlay" },
+	{ "name": "Option4", "bone": "root", "color": "ffffff00", "attachment": "Exit" },
+	{ "name": "Luis-Rojas-Edward-Romero", "bone": "Names", "attachment": "Luis-Rojas-Edward-Romero" },
+	{ "name": "Pucmm", "bone": "Pucmm", "attachment": "Pucmm" },
+	{ "name": "Tower----Defense", "bone": "TD", "attachment": "Tower----Defense" }
+],
+"skins": {
+	"default": {
+		"Fondo": {
+			"BG": { "x": 401.89, "y": 302.67, "width": 800, "height": 600 }
+		},
+		"Luis-Rojas-Edward-Romero": {
+			"Luis-Rojas-Edward-Romero": { "x": 10.58, "y": 3.96, "width": 263, "height": 49 }
+		},
+		"Option1": {
+			"Play": { "x": 661.7, "y": 424.24, "width": 279, "height": 91 }
+		},
+		"Option2": {
+			"HighScores": { "x": 570.02, "y": 333.41, "width": 462, "height": 91 }
+		},
+		"Option3": {
+			"HowToPlay": { "x": 569.96, "y": 243.28, "width": 462, "height": 91 }
+		},
+		"Option4": {
+			"Exit": { "x": 680.52, "y": 150.29, "width": 240, "height": 91 }
+		},
+		"Pucmm": {
+			"Pucmm": { "x": 86.63, "y": 1.66, "width": 260, "height": 86 }
+		},
+		"Tower----Defense": {
+			"Tower----Defense": { "x": 25.37, "y": 6.7, "width": 491, "height": 145 }
+		}
+	}
+},
+"animations": {
+	"Intro": {
+		"bones": {
+			"Pucmm": {
+				"rotate": [
+					{ "time": 0, "angle": -55.33 },
+					{ "time": 0.1666, "angle": -116.97 },
+					{ "time": 0.3333, "angle": -149.43 },
+					{ "time": 0.4666, "angle": 166.34 },
+					{ "time": 0.6333, "angle": 117.72 },
+					{ "time": 0.8, "angle": 63.08 },
+					{ "time": 1, "angle": -13.55 },
+					{ "time": 1.0666, "angle": -51.32 },
+					{ "time": 1.1666, "angle": -153.78 },
+					{ "time": 1.3666, "angle": 99.08 },
+					{ "time": 1.5, "angle": 44.24 },
+					{ "time": 1.8333, "angle": 0 }
+				],
+				"translate": [
+					{ "time": 0, "x": -357.6, "y": 102.34 },
+					{ "time": 1.1666, "x": 89.19, "y": 102.34, "curve": "stepped" },
+					{ "time": 1.8333, "x": 89.19, "y": 102.34 },
+					{ "time": 2, "x": 89.19, "y": 84.09 },
+					{ "time": 2.3333, "x": 135.19, "y": 136.66 },
+					{ "time": 2.6666, "x": 188.95, "y": 2.04 },
+					{ "time": 2.8333, "x": 188.95, "y": -12.56 },
+					{ "time": 3.1666, "x": 66.05, "y": -12.56 }
+				],
+				"scale": [
+					{ "time": 1.8333, "x": 1, "y": 1 },
+					{ "time": 2, "x": 1, "y": 0.554 },
+					{ "time": 2.3333, "x": 1, "y": 1.306 },
+					{ "time": 2.6666, "x": 1, "y": 1.126 },
+					{ "time": 2.8333, "x": 1, "y": 1 }
+				]
+			},
+			"Names": {
+				"translate": [
+					{ "time": 0, "x": 13.97, "y": -115.76 },
+					{ "time": 1.1666, "x": 7.98, "y": 107.78, "curve": "stepped" },
+					{ "time": 2, "x": 7.98, "y": 107.78 },
+					{ "time": 2.1666, "x": -90.07, "y": 162.62 },
+					{ "time": 2.5, "x": -154.89, "y": 63.97 },
+					{ "time": 2.6666, "x": -187.82, "y": 8.64 },
+					{ "time": 3.1666, "x": 9.64, "y": 3.07 }
+				]
+			},
+			"TD": {
+				"translate": [
+					{ "time": 0, "x": 1.66, "y": 257.6 },
+					{ "time": 0.6666, "x": 8.3, "y": 114.67, "curve": "stepped" },
+					{ "time": 1, "x": 8.3, "y": 114.67 },
+					{ "time": 1.5, "x": 8.3, "y": 69.8, "curve": "stepped" },
+					{ "time": 2, "x": 8.3, "y": 69.8 },
+					{ "time": 2.8333, "x": 8.3, "y": -4.98 }
+				]
+			}
+		}
+	}
+}
+}

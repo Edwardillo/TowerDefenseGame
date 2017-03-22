@@ -1,0 +1,55 @@
+{
+"bones": [
+	{ "name": "root" }
+],
+"slots": [
+	{ "name": "Disc", "bone": "root", "attachment": "Disc", "additive": true },
+	{ "name": "Disc_HitBox", "bone": "root", "attachment": "Disc_HitBox" }
+],
+"skins": {
+	"default": {
+		"Disc": {
+			"Disc": { "width": 200, "height": 200 }
+		},
+		"Disc_HitBox": {
+			"Disc_HitBox": {
+				"type": "boundingbox",
+				"vertices": [
+					-6.5000153,
+					72.000015,
+					-52.5,
+					53.000027,
+					-74.5,
+					11.000008,
+					-67.5,
+					-35.000015,
+					-44.5,
+					-59.99999,
+					0.5,
+					-78,
+					51.500015,
+					-52.999996,
+					70.499985,
+					-12.999973,
+					62.5,
+					37.99998,
+					28.499985,
+					66.000015
+				]
+			}
+		}
+	}
+},
+"animations": {
+	"Create": {
+		"bones": {
+			"root": {
+				"scale": [
+					{ "time": 0, "x": 0.702, "y": 0.702 },
+					{ "time": 1.3333, "x": 1.379, "y": 0.082 }
+				]
+			}
+		}
+	}
+}
+}
